@@ -1,0 +1,9 @@
+.container{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+textarea{
+    width: 15vw;
+    resize: none;
+    padding: 0.5rem;
+}
