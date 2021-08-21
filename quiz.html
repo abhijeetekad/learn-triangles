@@ -5,11 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="quiz.css" rel="stylesheet"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <title>Quiz</title>
 </head>
 <body>
-    <h1>Triangle Quiz</h1>
-    <form id="quiz-form">
+    <nav class="navigation">
+        <h5 class="website-name">Fun With Triangles</h5>
+        <div >
+            <ul class="nav-pills">
+                <li class="nav-main"><a class="link " href="istriangle.html">Is Triangle?</a></li>
+                <li class="nav-main"><a class="link " href="hypotenuse.html">Find Hypotenuse</a></li>
+                <li class="nav-main"><a class="link link-active" href="quiz.html">Quiz</a></li>
+                <li class="nav-main"><a class="link " href="areaoftriangle.html">Area of Triangle</a></li>
+            </ul>
+        </div>
+        
+    </nav>
+    <h1 >Triangle Quiz</h1>
+    <form id="quiz-form" class="quiz-form2">
         <div>
             <p> What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</p>
             <label><input type="radio" name="question1" value="45°"/>45°</label>
@@ -23,7 +36,7 @@
             <label><input type="radio" name="question2" value="right angled"/>right angled</label>
         </div>
     </form>
-    <button id="submit-btn">Submit Answers</button>
+    <button id="submit-btn" class="quiz-form2">Submit Answers</button>
     <div id="output"></div>
 
     <script src="quiz.js"></script>

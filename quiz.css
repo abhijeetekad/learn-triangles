@@ -1,0 +1,55 @@
+body{
+   
+    max-width: 1000px;
+    
+}
+.quiz-form2{
+    padding: 2px;
+    background-color: rgb(255, 161, 161);
+}
+.website-name{
+    font-weight: bold;
+    padding-left: 0.5rem;
+    
+}
+.navigation{
+    text-align: center;
+    background-color: rgb(167, 227, 255);
+    border-bottom-style:solid;
+    margin-bottom: 10px;
+}
+.nav-main{
+    display: inline;
+}
+.nav-pills{
+    text-align: center;
+    font-weight: normal;
+    font-size:120%;
+}
+.nav-pills .nav-main{
+    padding: 0rem 2.0rem;
+    font-size: 1.15rem;
+    font-weight: normal;
+}
+.link{
+    text-decoration: none;
+    padding: 0.5rem;
+    color: black;
+}
+.navigation .link-active{
+    font-weight: bolder;
+    background-color: rgb(143, 208, 238);
+    border-radius: 0.5rem;
+}
+
+label{
+    padding-bottom: 1rem;
+    font-size: large;
+}
+button{
+    text-align: center;
+    margin-left: 10%;
+}
+h1{
+    text-align: center;
+}

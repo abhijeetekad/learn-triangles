@@ -13,8 +13,10 @@ function calculateMarks(){
             score=score+1;
         }
         index=index+1;
+        
     }
-    outputEl.innerText=score;
+    
+    outputEl.innerText="Your score is "+score;
 }
 
 
