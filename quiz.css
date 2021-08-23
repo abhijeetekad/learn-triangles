@@ -1,11 +1,13 @@
-body{
-   
-    max-width: 1000px;
-    
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+body {
+  
+  font-family: 'Montserrat', sans-serif;
 }
+
 .quiz-form2{
-    padding: 2px;
-    background-color: rgb(255, 161, 161);
+    
+    padding: 20px;
+    background-color: #bdfca9;
 }
 .website-name{
     font-weight: bold;
@@ -33,12 +35,14 @@ body{
 }
 .link{
     text-decoration: none;
+    background-color: rgb(143, 208, 238);
+    border-radius: 0.5rem;
     padding: 0.5rem;
     color: black;
 }
 .navigation .link-active{
     font-weight: bolder;
-    background-color: rgb(143, 208, 238);
+    background-color: rgb(45, 134, 175);
     border-radius: 0.5rem;
 }
 
