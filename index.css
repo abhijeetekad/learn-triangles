@@ -1,46 +1,39 @@
+body {
+  margin-bottom: 53px;
+}
+.container {
+  border-style: solid;
+  margin-top: 80px;
+  border-style: solid;
+  height: 25rem;
+  text-align: center;
+}
 
-.website-name{
-    font-weight: bold;
-    padding-left: 0.5rem;
-    
+.nav-main {
+  display: inline;
 }
-.navigation{
-    text-align: center;
-    background-color: rgb(167, 227, 255);
-    border-bottom-style:solid;
-    margin-bottom: 10px;
+.nav-pills {
+  text-align: center;
+  font-weight: normal;
+  font-size: 120%;
+  margin-top: 80px;
 }
-.nav-main{
-    display: inline;
+.nav-pills .nav-main {
+  padding-bottom: 111px;
+  font-size: 1.15rem;
+  font-weight: normal;
 }
-.nav-pills{
-    text-align: center;
-    font-weight: normal;
-    font-size:120%;
+.link {
+  text-decoration: none;
+  padding: 0.5rem;
+  color: black;
 }
-.nav-pills .nav-main{
-    padding: 0rem 2.0rem;
-    font-size: 1.15rem;
-    font-weight: normal;
+.link-active {
+  font-weight: bolder;
+  background-color: rgb(143, 208, 238);
+  border-radius: 0.5rem;
+  width: 50px;
 }
-.link{
-    text-decoration: none;
-    padding: 0.5rem;
-    color: black;
-}
-.navigation .link-active{
-    font-weight: bolder;
-    background-color: rgb(143, 208, 238);
-    border-radius: 0.5rem;
-}
-.container{
-    padding: 5px;
-    text-align: center;
-    max-width: 400px;
-    background-color: rgb(255, 161, 161);
-    
-}
-label{
-    padding-bottom: 1rem;
-    font-size: large;
+textarea {
+  text-decoration: none;
 }
